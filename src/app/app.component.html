@@ -5,3 +5,14 @@
 <p>{{msg.length}}</p>
 <!-- 标签类型的绑定 -->
 <p [innerHTML]="msg"></p> 
+<!-- 属性绑定 -->
+<p>
+    <img [src] = "url" alt="">
+</p>
+<p>
+    <img bind-src = "url" alt="">
+</p>
+<p>
+    <img src = "{{url}}" alt="">
+</p>
+<p [title] = "msg">我爱我的祖国</p>
