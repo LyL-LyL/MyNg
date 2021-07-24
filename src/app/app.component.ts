@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'myng';
+  msg = '我<em>爱</em>我的祖国';
 }
