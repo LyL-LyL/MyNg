@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
 
+// 组件控制屏幕的一部分(视图)
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
+// 组件的逻辑定义在Class中，Class通过属性、方法与视图进行交互
 export class AppComponent {
   title = 'myng';
   msg = '我<em>爱</em>我的祖国';
